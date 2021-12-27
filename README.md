@@ -10,7 +10,7 @@ Tech Stack:
 
 ### The Forecast
 
-![The Forecast View](src/styles/assets/weather-api-project.png?raw=true "The Forecast View")
+![The Forecast View](weather-project/src/styles/assets/weather-api-project.png?raw=true)
 
 ## Inspiration
 
