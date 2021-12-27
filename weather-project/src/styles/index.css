@@ -5,15 +5,18 @@
 
 /* STYLE */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900&display=swap");
+@import "./page.css";
+@import "./form.css";
+@import "./currentDay.css";
+@import "./forecast.css";
+@import "./loader.css";
 
 :root {
   --gradient: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
-  --bg-color--card: #222831;
-  --main-border-radius: 25px;
   --secondary-border-radius: 15px;
 }
 
 body {
-  @apply bg-slate-500 text-white w-full h-screen;
+  @apply bg-dark-blue text-white w-full h-screen;
   font-family: "Montserrat", sans-serif;
 }

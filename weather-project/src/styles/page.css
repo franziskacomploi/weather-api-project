@@ -1,0 +1,8 @@
+.main-box {
+  @apply flex flex-row items-center justify-center text-white rounded rounded-3xl my-0 mx-auto bg-dark-gray;
+  -webkit-box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
+  width: 85%;
+  max-width: 675px;
+  min-height: 300px;
+}

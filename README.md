@@ -1,4 +1,4 @@
-## Weather API Project
+# Weather API Project
 
 A Weather API project inspired by The Ultimate API Challenge / Weather API.
 
@@ -8,6 +8,6 @@ Tech Stack:
 - Tailwind
 - Axios
 
-# Inspiration
+## Inspiration
 
 The Project is inspired by Dana and can be found here: https://theultimateapichallenge.com/weather-api-react

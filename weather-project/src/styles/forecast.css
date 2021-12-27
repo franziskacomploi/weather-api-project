@@ -1,0 +1,19 @@
+.forecast-card {
+  @apply rounded-3xl;
+}
+
+.forecast-box {
+  @apply bg-dark-gray text-white rounded-3xl;
+  -webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
+  width: 85%;
+  max-width: 675px;
+  min-height: 300px;
+}
+
+.upcoming-weeklist {
+  @apply bg-dark-gray rounded-3xl p-0;
+  list-style-type: none;
+  -webkit-box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.25);
+}

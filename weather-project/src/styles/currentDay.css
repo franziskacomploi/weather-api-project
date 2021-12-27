@@ -1,0 +1,24 @@
+.current-card {
+  @apply rounded-3xl;
+}
+
+.current-cardInner {
+  @apply z-10;
+  height: 300px;
+}
+
+.current-gradient {
+  @apply absolute w-full h-full top-0 left-0 rounded-3xl;
+  background-image: var(--gradient);
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.current-img {
+  @apply absolute w-full h-full top-0 left-0 bg-cover rounded-3xl;
+  background-image: url("../../public/assets/mountain.jpeg");
+}
+
+.current-weekday {
+  width: 100px;
+}
