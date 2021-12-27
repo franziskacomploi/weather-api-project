@@ -1,14 +1,11 @@
 .forecast-card {
-  @apply relative rounded-3xl;
-  width: 200px;
+  @apply relative rounded-3xl w-full md:w-52;
 }
 
 .forecast-box {
-  @apply bg-dark-gray text-white rounded-3xl;
+  @apply bg-dark-gray text-white rounded-3xl w-full md:w-4/5 h-full md:h-72;
   -webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
-  width: 85%;
-  height: 300px;
   max-width: 675px;
   min-height: 300px;
 }
