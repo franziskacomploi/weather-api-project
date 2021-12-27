@@ -1,5 +1,5 @@
 .current-card {
-  @apply rounded-3xl;
+  @apply flex rounded-3xl;
 }
 
 .current-cardInner {
@@ -8,17 +8,12 @@
 }
 
 .current-gradient {
-  @apply absolute w-full h-full top-0 left-0 rounded-3xl;
+  @apply absolute w-full h-full top-0 left-0 rounded-3xl bg-cover;
   background-image: var(--gradient);
-  background-size: cover;
   opacity: 0.7;
 }
 
 .current-img {
   @apply absolute w-full h-full top-0 left-0 bg-cover rounded-3xl;
-  background-image: url("../../public/assets/mountain.jpeg");
-}
-
-.current-weekday {
-  width: 100px;
+  background-image: url("./assets/mountain.jpeg");
 }

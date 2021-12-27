@@ -8,16 +8,23 @@ import Forecast from "./components/forecast/Forecast";
 import useForecast from "./hooks/useForecast";
 
 const App = () => {
-  const { isLoading, isError, forecast } = useForecast();
+  const { isLoading, isError, forecast, submitRequests } = useForecast();
+
+  const handleSubmit = (value) => {
+    submitRequests(value);
+  };
+
   return (
     <>
       <Header />
-      <div className="main-box">
-        <Form />
-        {isLoading && <Loader />}
-        {isError && <Error message={isError} />}
-        {forecast && <Forecast />}
-      </div>
+      {!forecast && (
+        <div className="main-box">
+          {!isLoading && <Form submitSearch={handleSubmit} />}
+          {isLoading && <Loader />}
+          {isError && !isLoading && <Error message={isError} />}
+        </div>
+      )}
+      {forecast && <Forecast forecast={forecast} />}
     </>
   );
 };

@@ -1,11 +1,13 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
 
-const Form = () => {
+const Form = ({ submitSearch }) => {
   const [location, setLocation] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!location || location === "") return;
+    submitSearch(location);
   };
 
   return (
@@ -27,6 +29,10 @@ const Form = () => {
       </button>
     </form>
   );
+};
+
+Form.propTypes = {
+  submitSearch: PropTypes.func.isRequired,
 };
 
 export default Form;

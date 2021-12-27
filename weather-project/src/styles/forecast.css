@@ -1,5 +1,6 @@
 .forecast-card {
-  @apply rounded-3xl;
+  @apply relative rounded-3xl;
+  width: 200px;
 }
 
 .forecast-box {
@@ -7,6 +8,7 @@
   -webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
   width: 85%;
+  height: 300px;
   max-width: 675px;
   min-height: 300px;
 }
