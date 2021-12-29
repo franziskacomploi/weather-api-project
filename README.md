@@ -17,3 +17,5 @@ Deployed here: https://weather-api-project.vercel.app/
 ## Inspiration
 
 The Project is inspired by Dana and can be found here: https://theultimateapichallenge.com/weather-api-react
+
+Node version 17.2.0
